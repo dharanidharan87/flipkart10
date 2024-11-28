@@ -88,3 +88,34 @@ div li {
     gap: 15px;
     margin: 10px 0;
   }
+button {
+  background-color: #007BFF; 
+  color: white;             
+  padding: 10px 20px;       
+  border: none;             
+  border-radius: 5px;       
+  font-size: 16px;          
+  font-weight: bold;        
+  cursor: pointer;          
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+
+button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05);    
+}
+
+/* Active effect */
+button:active {
+  background-color: #003d80; 
+  transform: scale(0.95);    
+}
+
+/* Disabled state */
+button:disabled {
+  background-color: #cccccc; 
+  cursor: not-allowed;      
+  opacity: 0.7;             
+}
+
