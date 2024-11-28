@@ -5,6 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animated Page</title>
   <style>
+    login {
+  background-color: #007BFF; 
+  color: white;             
+  padding: 10px 20px;       
+  border: none;             
+  border-radius: 5px;       
+  font-size: 16px;          
+  font-weight: bold;        
+  cursor: pointer;          
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+
+login:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05);    
+}
+
+
+login:active {
+  background-color: #003d80; 
+  transform: scale(0.95);    
+}
+
+login:disabled {
+  background-color: #cccccc; 
+  cursor: not-allowed;      
+  opacity: 0.7;             
+}
+
     
     body {
       margin: 0;
@@ -111,7 +141,7 @@
     <a href="index2.html"><button>Dresses</button></a>
   </div>
   <hr>
-  <center><a href="index3.html"><button>Login</button></a></center>
+  <center><a href="index3.html"><button class="login">Login</button></a></center>
   <div>
     <h2>HOME</h2>
   </div>
