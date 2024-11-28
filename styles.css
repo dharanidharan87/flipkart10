@@ -1,4 +1,4 @@
-/* General body styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0%;
@@ -7,13 +7,11 @@ body {
     color: #333;
 }
 
-/* Centered logo */
+
 div > center img {
     max-width: 200%;
     margin-top: 200%;
 }
-
-/* Horizontal rule styling */
 hr {
     margin: 20% auto;
     width: 90%;
@@ -22,7 +20,7 @@ hr {
     background-color: #ccc;
 }
 
-/* Section title */
+
 h2 {
     margin-top: 10%;
     color: #444;
@@ -30,7 +28,7 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Dress container styling */
+
 div {
     max-width: 800%;
     margin: 20px auto;
@@ -40,15 +38,13 @@ div {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* Dress item styling */
 div p {
     font-size: 1.2rem;
     font-weight: bold;
     margin: 10px 0;
 }
 
-/* Images */
+
 div img {
     max-width: 100%;
     height: auto;
@@ -57,7 +53,7 @@ div img {
     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Price list item */
+
 div li {
     list-style-type: none;
     font-size: 1rem;
